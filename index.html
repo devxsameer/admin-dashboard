@@ -11,10 +11,244 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sriracha&display=swap"
       rel="stylesheet"
     />
-    <!-- Main StyleSheet -->
+    <!-- Icons -->
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Main StyleSheets -->
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./main-section.css" />
   </head>
   <body>
-    <div class="container"></div>
+    <!-- Navbar -->
+    <div class="navbar-wrapper">
+      <div class="navbar">
+        <header>
+          <div class="navbar-title">
+            <i class="bxr bx-dashboard"></i>
+            <h3 class="nav-text">admin</h3>
+          </div>
+          <i class="bxr bx-chevron-right toggle"></i>
+        </header>
+        <div class="menu-bar">
+          <ul class="nav">
+            <li class="menu-link">
+              <a href="#" class="active">
+                <i class="bxr bx-home-alt-2 icon"></i>
+                <span class="nav-text">Home</span>
+              </a>
+            </li>
+            <li class="menu-link">
+              <a href="#">
+                <i class="bxr bx-user-circle icon"></i>
+                <span class="nav-text">Profile</span>
+              </a>
+            </li>
+            <li class="menu-link">
+              <a href="#">
+                <i class="bxr bx-message-reply icon"></i>
+                <span class="nav-text">Messages</span>
+              </a>
+            </li>
+            <li class="menu-link">
+              <a href="#">
+                <i class="bxr bx-history icon"></i>
+                <span class="nav-text">History</span>
+              </a>
+            </li>
+            <li class="menu-link">
+              <a href="#">
+                <i class="bxr bx-calendar-check icon"></i>
+                <span class="nav-text">Task</span>
+              </a>
+            </li>
+            <li class="menu-link">
+              <a href="#">
+                <i class="bxr bx-community icon"></i>
+                <span class="nav-text">Communities</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="bottom-nav">
+            <li class="menu-link">
+              <a href="#">
+                <i class="bxr bx-cog icon"></i>
+                <span class="nav-text">Settings</span>
+              </a>
+            </li>
+            <li class="menu-link mode">
+              <div>
+                <div class="moon-sun icon">
+                  <i class="bxr bx-moon icon moon"></i>
+                  <i class="bxr bx-sun icon sun"></i>
+                </div>
+                <span class="mode-text">DarkMode</span>
+                <div class="toggle-switch"><span class="switch"></span></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Header -->
+    <div class="header padding">
+      <div class="search-box">
+        <div class="search-input">
+          <i class="bxr bx-search"></i>
+          <input
+            type="search"
+            name="search"
+            id="search-input"
+            placeholder="Search"
+            size="15"
+          />
+        </div>
+      </div>
+      <div class="profile-box">
+        <i class="bxr bx-bell icon bell"></i>
+        <i class="bxr bx-user-circle icon profile"></i>
+        <span>devXsameer</span>
+      </div>
+    </div>
+    <!-- Info -->
+    <div class="info padding">
+      <div class="greeting">
+        <p>Hi there,</p>
+        <h2>Sameer Ali (@devXsameer)</h2>
+      </div>
+      <div class="buttons">
+        <button class="button">New</button>
+        <button class="button">Upload</button>
+        <button class="button">Share</button>
+      </div>
+    </div>
+    <div class="main padding">
+      <div class="projects">
+        <h3>Your Projects</h3>
+        <div class="projects-wrapper">
+          <div class="project padding">
+            <h4>Super Cool Project</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              cupiditate, maxime vero nobis eos adipisci laudantium voluptate
+              sequi voluptas voluptatum, nam nulla esse accusantium odio?
+            </p>
+            <div class="card-buttons">
+              <a href="|"><i class="bxr bx-share"></i></a>
+              <a href="|"><i class="bxr bx-reading-glass"></i></a>
+              <a href="|"><i class="bxr bx-like"></i></a>
+            </div>
+          </div>
+          <div class="project padding">
+            <h4>Super Cool Project</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              cupiditate, maxime vero nobis eos adipisci laudantium voluptate
+              sequi voluptas voluptatum, nam nulla esse accusantium odio?
+            </p>
+            <div class="card-buttons">
+              <a href="|"><i class="bxr bx-share"></i></a>
+              <a href="|"><i class="bxr bx-reading-glass"></i></a>
+              <a href="|"><i class="bxr bx-like"></i></a>
+            </div>
+          </div>
+          <div class="project padding">
+            <h4>Super Cool Project</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              cupiditate, maxime vero nobis eos adipisci laudantium voluptate
+              sequi voluptas voluptatum, nam nulla esse accusantium odio?
+            </p>
+            <div class="card-buttons">
+              <a href="|"><i class="bxr bx-share"></i></a>
+              <a href="|"><i class="bxr bx-reading-glass"></i></a>
+              <a href="|"><i class="bxr bx-like"></i></a>
+            </div>
+          </div>
+          <div class="project padding">
+            <h4>Super Cool Project</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              cupiditate, maxime vero nobis eos adipisci laudantium voluptate
+              sequi voluptas voluptatum, nam nulla esse accusantium odio?
+            </p>
+            <div class="card-buttons">
+              <a href="|"><i class="bxr bx-share"></i></a>
+              <a href="|"><i class="bxr bx-reading-glass"></i></a>
+              <a href="|"><i class="bxr bx-like"></i></a>
+            </div>
+          </div>
+          <div class="project padding">
+            <h4>Super Cool Project</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              cupiditate, maxime vero nobis eos adipisci laudantium voluptate
+              sequi voluptas voluptatum, nam nulla esse accusantium odio?
+            </p>
+            <div class="card-buttons">
+              <a href="|"><i class="bxr bx-share"></i></a>
+              <a href="|"><i class="bxr bx-reading-glass"></i></a>
+              <a href="|"><i class="bxr bx-like"></i></a>
+            </div>
+          </div>
+          <div class="project padding">
+            <h4>Super Cool Project</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              cupiditate, maxime vero nobis eos adipisci laudantium voluptate
+              sequi voluptas voluptatum, nam nulla esse accusantium odio?
+            </p>
+            <div class="card-buttons">
+              <a href="|"><i class="bxr bx-share"></i></a>
+              <a href="|"><i class="bxr bx-reading-glass"></i></a>
+              <a href="|"><i class="bxr bx-like"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="other">
+        <div class="trending">
+          <h3>Trending</h3>
+          <div class="card">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              laudantium consectetur voluptate repellendus. Magni ratione
+              dolores adipisci labore sit cum veritatis? Hic modi excepturi,
+              enim, deserunt distinctio voluptatibus illum assumenda labore
+              repellendus velit libero aut quis aliquid voluptatem maiores alias
+              neque omnis quod error autem.
+            </p>
+          </div>
+        </div>
+        <div class="announcements">
+          <h3>Announcements</h3>
+          <div class="card">
+            <h4>Site Maintainence</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              aperiam earum, deserunt reiciendis, alias omnis, consequuntur
+              laboriosam voluptatibus eos dolor suscipit eius accusantium saepe
+              obcaecati.
+            </p>
+            <h4>Community Share Day</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              aperiam earum, deserunt reiciendis, alias omnis, consequuntur
+              laboriosam voluptatibus eos dolor suscipit eius accusantium saepe
+              obcaecati.
+            </p>
+            <h4>Updated Privacy Policy</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              aperiam earum, deserunt reiciendis, alias omnis, consequuntur
+              laboriosam voluptatibus eos dolor suscipit eius accusantium saepe
+              obcaecati.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
   </body>
 </html>

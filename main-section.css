@@ -1,0 +1,80 @@
+/* Main */
+.main {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  gap: 1rem;
+  padding: 1rem;
+}
+/* Projects */
+.projects {
+  flex: 1 1 800px;
+}
+.main .projects-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 400px));
+  gap: 1rem;
+}
+.projects .projects-wrapper .project {
+  background-color: var(--color-foreground);
+  border-radius: 0.5rem;
+  border-left: 5px solid var(--color-primary);
+}
+.projects .projects-wrapper .project p {
+  font-size: 0.9rem;
+}
+.projects .projects-wrapper .project .card-buttons {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1rem;
+  gap: 1rem;
+}
+.projects .projects-wrapper .project .card-buttons a {
+  background: var(--color-background);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.projects .projects-wrapper .project .card-buttons a:hover {
+  background: var(--color-primary);
+  color: var(--color-opp-text);
+}
+/* Other */
+.other {
+  flex: 1 1 400px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+.other > * {
+  max-width: 400px;
+}
+/* Trending */
+.trending {
+  max-inline-size: 36ch;
+}
+.trending .card {
+  background-color: var(--color-foreground);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+/* Announcements */
+.announcements .card {
+  background-color: var(--color-foreground);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.announcements .card p {
+  font-size: 0.8rem;
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: 1rem;
+}
+.announcements .card p:last-child {
+  border-bottom: none;
+}
