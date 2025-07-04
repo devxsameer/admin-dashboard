@@ -50,15 +50,13 @@
   flex: 1 1 400px;
   display: flex;
   flex-flow: row wrap;
+  justify-content: stretch;
   gap: 1rem;
 }
 .other > * {
   max-width: 400px;
 }
 /* Trending */
-.trending {
-  max-inline-size: 36ch;
-}
 .trending .card {
   background-color: var(--color-foreground);
   border-radius: 0.5rem;
