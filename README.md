@@ -27,8 +27,8 @@ This project is part of my #100DaysOfCode challenge and The Odin Project curricu
 
 ## 🎯 Features
 
-- 📐 **Responsive grid layout** using CSS Grid and Flexbox
-- 🧱 Sidebar, navbar, main content, cards, and a project table
+- 📐 **Responsive layout** using CSS Grid and Flexbox
+- 🧱 Sidebar, navbar, main content, cards and sections
 - 🌗 **Dark mode toggle** for those who code best in the shadows
 - 🎨 Custom styling with CSS variables for easy theme control
 - 📱 Fully responsive design — works great on all screen sizes
@@ -63,7 +63,7 @@ Built as part of the [The Odin Project](https://www.theodinproject.com/) Full St
 
 ## 🔖 Related
 
-- Logged under **Day 32** of my [#100DaysOfCode](https://github.com/devxsameer/100-days-of-code)
+- Logged under **Day 32-33** of my [#100DaysOfCode](https://github.com/devxsameer/100-days-of-code)
 - Built completely from scratch — no frameworks, just good ol’ HTML + CSS + Little JS
 
 ---

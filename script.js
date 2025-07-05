@@ -2,6 +2,7 @@ const navBar = document.querySelector(".navbar"),
   toggle = document.querySelector(".toggle"),
   modeSwitch = document.querySelector(".toggle-switch"),
   menuLinks = document.querySelectorAll(".menu-link");
+  
 
 toggle.addEventListener("click", () => {
   navBar.classList.toggle("open");
